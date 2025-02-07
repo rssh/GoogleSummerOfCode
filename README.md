@@ -124,6 +124,23 @@ However, here are some rules that we'd like to emphasize since they are not visi
 
 For project ideas relating to the Typelevel ecosystem in the categories of AI/ML, serverless, data streaming, observability, and systems programming, please visit https://typelevel.org/gsoc/ideas/.
 
+
+### Scalus (Compiler plugin for compiling Scala input Plutus smart-contract language) - implements a subset of the standard library.
+
+|Title                   |                                   |
+|------------------------|------------------------------------------|
+|Link to Project         | https://github.com/nau/scalus            |
+|Brief Description | Currently, Scalus provides only a basic prelude.  If would be good map scala Option and List classes to scalus MayBe and scalus.Prelude.list and implement basic functions lile map, fold. etc.. |
+|Expected Outcome        | Ability for developers to reuse knowledge about Scala standard library when writing Plutus Smart Contracts |
+|Prerequisites           | Some experience with Scala, basic understanding of compiler theory (know - what AST is) and blockchain technology (know what is UTXO) |
+|Expected Difficulty     | Medium  |
+|Expected Time Commitment| Medium project - 175 hours |
+|Spoken Language         | English |
+|Mentor                  | Alex Nemish ([Github](https://github.com/nau), Email: anemish@gmail.com |
+|Co-mentor               | Ruslan Shevchenko.  [Github](https://github.com/rssh) Email: <ruslan@shevchenko.kiev.ua> |
+
+
+
 ### Template
 
 |Title                   | |
@@ -137,4 +154,6 @@ For project ideas relating to the Typelevel ecosystem in the categories of AI/ML
 |Spoken Language         |English|
 |Mentor                  |FirstName LastName (GitHub: [@foo](https://github.com/foo), Email: [foo@gmail.com](mailto:foo@gmail.com))|
 |Co-mentor               |FirstName LastName (GitHub: [@foo](https://github.com/foo), Email: [foo@gmail.com](mailto:foo@gmail.com))|
+
+
 
